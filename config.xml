@@ -1,49 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<widget id="com.brilliantapp.payme" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Payme</name>
-        <description>Payme is a Mobile App for customers to pay by scanning shop QR code </description>
-    <author href="www.fb.com/DrOs96" email="Drusama2@gmail.com">
-        Osama Soliman
-    </author>
-    <preference name="phonegap-version" value="3.7.0" />
-    <preference name="orientation" value="portrait" />
-    <preference name="fullscreen" value="true" />
-    <preference name="target-device" value="universal" />
-    <preference name="webviewbounce" value="true" />
-    <preference name="prerendered-icon" value="true" />
-    <preference name="stay-in-webview" value="true" />
-    <preference name="ios-statusbarstyle" value="default" />
-    <preference name="detect-data-types" value="true" />
-    <preference name="exit-on-suspend" value="true" />
-    <preference name="show-splash-screen-spinner" value="true" />
-    <preference name="auto-hide-splash-screen" value="true" />
-    <preference name="EnableViewportScale" value="true" />
-    <preference name="MediaPlaybackRequiresUserAction" value="true" />
-    <preference name="AllowInlineMediaPlayback" value="true" />
-    <preference name="BackupWebStorage" value="cloud" />
-    <preference name="TopActivityIndicator" value="gray" />
-    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
-    <preference name="HideKeyboardFormAccessoryBar" value="true" />
-    <preference name="SuppressesIncrementalRendering" value="true" />
-    <preference name="android-minSdkVersion" value="11" />
-    <preference name="android-maxSdkVersion" value="21" />
-    <preference name="android-installLocation" value="internalOnly" />
-    <preference name="SplashScreenDelay" value="5000" />
-    <preference name="ErrorUrl" value=""/>
-    <preference name="BackgroundColor" value="0x000000"/>
-    <preference name="KeepRunning" value="true"/>
-    <preference name="DisallowOverscroll" value="true"/>
-    <preference name="LoadingDialog" value=","/>
-    <preference name="LoadUrlTimeoutValue" value="20000" />
-    <preference name="disable-cursor" value="true" />
-    <gap:platform name="android" />
-    <feature name="http://api.phonegap.com/1.0/notification"/>
-    <gap:plugin name="org.apache.cordova.media"  />
-    <icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
-    <icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
-    <icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
-    <icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
-    <icon src="res/icon/android/144.png" gap:platform="android" gap:density="xxhdpi" />
-    <icon src="res/icon/android/192.png" gap:platform="android" gap:density="xxxhdpi" />
-    <icon src="res/icon/android/64.png" />
-</widget>
+<?xml version="1.0" encoding="UTF-8"?>	<widget xmlns = "http://www.w3.org/ns/widgets"		xmlns:gap = "http://phonegap.com/ns/1.0"		id        = "com.brilliantapp.com"		versionCode="5"		version   = "1.0.0">		<name>Payme</name>		<description>Payme is a Mobile App for customers to pay by scanning shop QR code 		</description>		<author href="microsmsm.blogspot.com" email="drusama2@gmail.com">Osama Soliman		</author>		<preference name="phonegap-version" value="3.7.0" />		<preference name="orientation" value="portrait" />		<preference name="fullscreen" value="false" />		<preference name="target-device" value="universal" />		<preference name="webviewbounce" value="true" />		<preference name="prerendered-icon" value="true" />		<preference name="stay-in-webview" value="true" />		<preference name="ios-statusbarstyle" value="default" />		<preference name="detect-data-types" value="true" />		<preference name="exit-on-suspend" value="false" />		<preference name="show-splash-screen-spinner" value="true" />		<preference name="auto-hide-splash-screen" value="true" />		<preference name="EnableViewportScale" value="true" />		<preference name="MediaPlaybackRequiresUserAction" value="false" />		<preference name="AllowInlineMediaPlayback" value="false" />		<preference name="BackupWebStorage" value="cloud" />		<preference name="TopActivityIndicator" value="gray" />		<preference name="KeyboardDisplayRequiresUserAction" value="false" />		<preference name="HideKeyboardFormAccessoryBar" value="false" />		<preference name="SuppressesIncrementalRendering" value="false" />		<preference name="android-minSdkVersion" value="11" />		<preference name="android-installLocation" value="internalOnly" />		<preference name="SplashScreenDelay" value="5000" />		<preference name="ErrorUrl" value=""/>		<preference name="BackgroundColor" value="0x000000"/>		<preference name="KeepRunning" value="true"/>		<preference name="DisallowOverscroll" value="false"/>		<preference name="LoadingDialog" value=","/> 		<preference name="LoadUrlTimeoutValue" value="20000" />		<preference name="disable-cursor" value="false" />		<gap:platform name="android" />		<feature name="http://api.phonegap.com/1.0/camera"/>		<feature name="http://api.phonegap.com/1.0/network"/>		<gap:plugin name="org.apache.cordova.camera"  />		<gap:plugin name="org.apache.cordova.dialogs"  />		<icon src="res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />		<icon src="res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />		<icon src="res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />		<icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />		<icon src="res/icon/android/144.png" gap:platform="android" gap:density="xxhdpi" />		<icon src="res/icon/android/192.png" gap:platform="android" gap:density="xxxhdpi" />	</widget>
