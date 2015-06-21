@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.brilliantapp.payme"
-        versionCode="7"
-        version   = "1.0.0">
+<widget id="com.brilliantapp.payme" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Payme</name>
         <description>Payme is a Mobile App for customers to pay by scanning shop QR code </description>
     <author href="www.fb.com/DrOs96" email="Drusama2@gmail.com">
