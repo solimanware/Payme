@@ -66,6 +66,10 @@
                 Pay Now
             </button>
         </div>
+<div class="bar bar-footer bar-stable">
+
+        <div id="refresh" class="title"><i class="icon ion-refresh"></i> Repeat</div>
+        </div>
     </ion-content>
 </ion-view>
 
@@ -90,23 +94,14 @@
                     closeOnConfirm: false,
                     closeOnCancel: false },
                 function(isConfirm){   if (isConfirm) {
-                    swal("Deleted!", "Your imaginary file has been deleted.", "success");
+                    swal("Done!", "Your have just paid " + document.getElementById('amount').value + "$ to " + name, "success");
                 }else{
-                    swal("Cancelled", "Your imaginary file is safe :)", "error");
+                    swal("Cancelled", "Your have cancelled the process", "error");
                 } });
     };
-// This is your app's init method. Here's an example of how to use it
-function init() {
-    document.addEventListener("deviceready", onDR, false);
-}
-function onDR(){
-    document.addEventListener("backbutton", backKeyDown, true);
-    //boot your app...
-}
-function backKeyDown() {
-    // do something here if you wish
-    // alert('go back!');
-}
+    document.getElementById('refresh').onclick = function(){
+        window.location.href = "index.html";
+    };
 </script>
 </body>
 </html>

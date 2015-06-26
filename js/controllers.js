@@ -22,10 +22,10 @@ angular.module('starter.controllers', [])
 
                         $scope.message = '<table>' +
                             '<tbody>' +
-                            '<tr><td>Timestamp:</td><td>&nbsp;</td><td>' + d.toUTCString() + '</td></tr>' +
+                            //'<tr><td>Timestamp:</td><td>&nbsp;</td><td>' + d.toUTCString() + '</td></tr>' +
                             '<tr><td>Text:</td><td>&nbsp;</td><td>' + result.result.text + '</td></tr>' +
-                            '<tr><td>Format:</td><td>&nbsp;</td><td>' + result.result.format + '</td></tr>' +
-                            '<tr><td>Text:</td><td>&nbsp;</td><td>' + result.result.cancelled + '</td></tr>' +
+                            //'<tr><td>Format:</td><td>&nbsp;</td><td>' + result.result.format + '</td></tr>' +
+                            //'<tr><td>Text:</td><td>&nbsp;</td><td>' + result.result.cancelled + '</td></tr>' +
                             '</tbody>' +
                             '</table>';
                     }
