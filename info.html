@@ -94,6 +94,17 @@
                     swal("Cancelled", "Your imaginary file is safe :)", "error");
                 } });
     };
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady()
+    {
+        document.addEventListener("backbutton", onBackClickEvent, false);
+    }
+
+    function onBackClickEvent()
+    {
+        alert("back onBackClickEvent");
+    }
 </script>
 </body>
 </html>
