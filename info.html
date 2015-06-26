@@ -95,17 +95,18 @@
                     swal("Cancelled", "Your imaginary file is safe :)", "error");
                 } });
     };
-    document.addEventListener("deviceready", onDeviceReady, false);
-
-    function onDeviceReady()
-    {
-        document.addEventListener("backbutton", onBackClickEvent, false);
-    }
-
-    function onBackClickEvent()
-    {
-        alert("back onBackClickEvent");
-    }
+// This is your app's init method. Here's an example of how to use it
+function init() {
+    document.addEventListener("deviceready", onDR, false);
+}
+function onDR(){
+    document.addEventListener("backbutton", backKeyDown, true);
+    //boot your app...
+}
+function backKeyDown() {
+    // do something here if you wish
+    // alert('go back!');
+}
 </script>
 </body>
 </html>
