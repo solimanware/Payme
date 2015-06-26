@@ -1,50 +1,47 @@
 <!DOCTYPE html>
-<html class="html">
- <head>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Application index</title>
 
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="generator" content="7.0.314.244"/>
-  <title>Home</title>
-  <meta name="viewport" content="width=540"/>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?417434784"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?78331622" id="pagesheet"/>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   document.documentElement.className += ' js';
-</script>
-   </head>
- <body>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
 
-  <div class="clearfix" id="page"><!-- column -->
-   <div class="position_content" id="page_position_content">
-    <div class="shadow clearfix browser_width colelem" id="u87"><!-- group -->
-     <img class="grpelem" id="u88-4" src="images/u88-4.png" alt="Pay Me" width="162" height="59"/><!-- rasterized frame -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<nav id="nav-shadow" class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+                <img class="brand" alt="Brand" src="img/brand.png">
+            </a>
+            <h4 id="app-title">PayMe</h4>
+        </div>
     </div>
-    <a class="nonblock nontext rounded-corners clearfix colelem" id="u93" href="qrscan.html"><!-- group --><img class="grpelem" id="u94-4" src="images/u94-4.png" alt="Scan and Pay" width="140" height="34"/><!-- rasterized frame --></a>
-    <div class="verticalspacer"></div>
-   </div>
-  </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script src="scripts/museutils.js?3865766194" type="text/javascript"></script>
-  <script src="scripts/jquery.tobrowserwidth.js?3842421675" type="text/javascript"></script>
-  <script src="scripts/jquery.watch.js?4068933136" type="text/javascript"></script>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   $(document).ready(function() { try {
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-$('.browser_width').toBrowserWidth();/* browser width elements */
-Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
-</script>
-   </body>
+</nav>
+<div class="container"  id="middle">
+    <div class="row">
+        <div class="col-md-12">
+            <a href="qrscanner.html" type="button" class="btn btn-danger">Scan and Pay</a>
+        </div>
+    </div>
+<div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
