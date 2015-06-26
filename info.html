@@ -77,9 +77,10 @@
     document.getElementById('adress').innerText = qr_code[2];
     document.getElementById('mobile').innerText = qr_code[3];
     document.getElementById('details').innerText = qr_code[4];
+    var name = qr_code[0] ;
     document.getElementById("paynow").onclick = function(){
         swal({   title: "Are you sure?",
-                    text: "You want to pay " + document.getElementById('amount').value + " to " + name + "???" ,
+                    text: "You want to pay " + document.getElementById('amount').value + "$ to " + name + "???" ,
                     type: "warning",
                     showCancelButton: true,
                     confirmButtonColor: "#DD6B55",
