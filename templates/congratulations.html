@@ -1,0 +1,42 @@
+<ion-view title="About">
+  <ion-content class="has-header padding">
+    <div class="list card">
+
+      <div class="item item-avatar">
+        <img id="pic" src="img/pic.jpg">
+        <h2 id="name">$name</h2>
+        <p id="paytype">$payType</p>
+      </div>
+
+      <div class="item item-body">
+        <p class="item item-icon-left">
+          <i class="icon ion-home"></i>
+          Adress: $adress
+        </p>
+        <p class="item item-icon-left">
+          <i class="icon ion-ios-telephone"></i>
+          Mobile: $mobile
+        </p>
+        <p class="item item-icon-left">
+          <i class="icon ion-card"></i>
+          Details: $details
+        </p>
+      </div>
+    </div>
+    <div id="enter-form" class="list">
+      <label class="item item-input">
+          <i class="icon ion-social-usd-outline"></i>
+        <span class="input-label">Enter Amount: </span>
+        <input type="text">
+      </label>
+      <label class="item item-input">
+        <i class="icon ion-ios-unlocked-outline"></i>
+        <span class="input-label">Enter PIN : </span>
+        <input type="password">
+      </label>
+      <button id="paynow" class="button button-assertive">
+        Pay Now
+      </button>
+    </div>
+  </ion-content>
+</ion-view>
