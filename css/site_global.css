@@ -1,11 +1,8 @@
 html
 {
+	min-height: 100%;
+	min-width: 100%;
 	-ms-text-size-adjust: none;
-	overflow-x: hidden;
-	overflow-y: auto;
-	height: 100%;
-	width:100%;
-	
 }
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,a
