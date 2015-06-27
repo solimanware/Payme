@@ -1,32 +1,7 @@
-This is an addon starter template for the [Ionic Framework](http://ionicframework.com/).
+Payme ... Scan QR and pay
+Never hold money, Your mobile sigined in payme account is enough ...
+just scan the QR Code enter the PIN and pay ...
 
-## How to use this template
-
-*This template does not work on its own*. It is missing the Ionic library, and AngularJS.
-
-To use this, either create a new ionic project using the ionic node.js utility, or copy and paste this into an existing Cordova project and download a release of Ionic separately.
-
-### With the Ionic tool:
-
-Take the name after `ionic-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myApp tabs
-```
-
-Then, to run it, cd into `myApp` and run:
-
-```bash
-$ ionic platform add ios
-$ ionic build ios
-$ ionic emulate ios
-```
-
-Substitute ios for android if not on a Mac, but if you can, the ios development toolchain is a lot easier to work with until you need to do anything custom to Android.
-
-## Demo
-http://plnkr.co/edit/qYMCrt?p=preview
-
-## Issues
-Issues have been disabled on this repo, if you do find an issue or have a question consider posting it on the [Ionic Forum](http://forum.ionicframework.com/).  Or else if there is truly an error, follow our guidelines for [submitting an issue](http://ionicframework.com/contribute/#issues) to the main Ionic repository. On the other hand, pull requests are welcome here!
+I used Ionic + Phonegap barcode plugin
+-----
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Payme</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://microsmsm.blogspot.com/" property="cc:attributionName" rel="cc:attributionURL">Osama Soliman</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/Microsmsm/Payme" rel="dct:source">https://github.com/Microsmsm/Payme</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://microsmsm.blogspot.com/" rel="cc:morePermissions">http://microsmsm.blogspot.com/</a>.
