@@ -2,6 +2,7 @@ Payme ... Scan QR and pay
 Never hold money, Your mobile sigined in payme account is enough ...
 
 Download for Android : https://build.phonegap.com/apps/1524754/download/android
+
 for WP : https://build.phonegap.com/apps/1524754/download/winphone
 
 
