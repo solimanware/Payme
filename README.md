@@ -1,6 +1,10 @@
 Payme ... Scan QR and pay
 Never hold money, Your mobile sigined in payme account is enough ...
 
+Download for Android : https://build.phonegap.com/apps/1524754/download/android
+for WP : https://build.phonegap.com/apps/1524754/download/winphone
+
+
 just scan the QR Code enter the PIN and pay ...
 
 I have used Ionic Framework + Phonegap barcode plugin + Sweet Alert 
